@@ -181,7 +181,7 @@ article:first-of-type {
         grid-template-columns: repeat(3, 255px);
         max-height: 561px;
         padding: 0;
-        margin: 145px auto 183px auto;
+        margin: 165px auto 183px auto;
     }
 
     .testimonial-1,
