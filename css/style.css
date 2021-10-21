@@ -189,8 +189,21 @@ article:first-of-type {
         grid-row: 1 / span 1;
     }
 
+    .testimonial-1,
+    .testimonial-2,
+    .testimonial-3,
+    .testimonial-4 {
+        max-height: 282px;
+    }
+
     .testimonial-1 {
         grid-column: 1 / span 2;
+    }
+
+    .testimonial-2,
+    .testimonial-3,
+    .testimonial-5 {
+        max-width: 255px;
     }
 
     .testimonial-2 {
@@ -214,5 +227,9 @@ article:first-of-type {
         grid-row: 1 / span 2;
         grid-column: 4 / span 1;
         min-height: 100%;
+    }
+
+    .testimonial-1 .testimonial__title {
+        margin-bottom: 16px;
     }
 }
